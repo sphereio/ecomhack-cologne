@@ -504,7 +504,7 @@ header{
 /* ============================== */
 
 #about{
-	padding: 55px 0 95px 0;
+	padding: 55px 0 0px 0;
 	text-align: center;
 
 	.row{
@@ -512,7 +512,7 @@ header{
 	}
 
 	h2{
-		margin-top: 17px;
+		margin-top: 15px;
 	}
 
   hr{
@@ -891,7 +891,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 	//background: url("../img/gallery-bg.jpg") no-repeat fixed center bottom;
 	background-color: $city-color;
     background-size: cover;
-	padding: 135px 0;
+	padding: 15px 0;
 	position: relative;
 
 	.overlay{
@@ -1001,7 +1001,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /* ============================== */
 
 #timeline{
-	padding: 120px 0;
+	padding: 10px 0;
 	text-align: center;
 
 	.nav-tabs{
