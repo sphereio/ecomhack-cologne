@@ -1586,4 +1586,12 @@ footer {
 .timeline-info h3 {
   color: #f21c42; }
 
+.btn-ecomhack {
+  background-color: #f21c42;
+  color: #fff;
+  margin: 0;
+  border-radius: 0;
+  margin-top: 20px;
+  width: 100%; }
+
 /*# sourceMappingURL=style.css.map */
