@@ -58,7 +58,7 @@ p {
 
 .section-title {
   color: #f46464;
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-style: italic; }
 
@@ -222,9 +222,9 @@ header {
   background-color: #399fbc;
   background-size: cover;
   color: rgba(255, 255, 255, 0.4);
-  font-family: "Merriweather", sans-serif;
+  font-family: "Montserrat", sans-serif;
   position: relative;
-  padding: 180px 0 135px 0; }
+  padding: 180px 0 25px 0; }
   #main-section .overlay {
     background-color: rgba(25, 33, 50, 0.92);
     position: absolute;
@@ -263,11 +263,10 @@ header {
     margin-top: 25px;
     font-size: 50px !important; }
   #main-section .main-intro .big-text {
-    font-size: 80px;
     color: #f21c42;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 98px;
+    font-size: 530%;
     line-height: 90px;
     margin-top: 5px;
     padding: 10px 0;
@@ -285,7 +284,7 @@ header {
       font-family: "Montserrat", sans-serif;
       color: #fff; }
   #main-section .main-intro .description {
-    padding-top: 70px;
+    padding-top: 0px;
     font-size: 14px;
     font-style: italic;
     line-height: 18px; }
@@ -319,12 +318,13 @@ header {
 /*		    about section  	      */
 /* ============================== */
 #about {
-  padding: 55px 0 0px 0;
+  padding: 15px 0 0px 0;
   text-align: center; }
   #about .row {
     margin-top: 70px; }
   #about h2 {
-    margin-top: 15px; }
+    margin-top: 17px;
+    color: #399fbc; }
   #about hr {
     background-color: rgba(0, 0, 0, 0.1); }
   #about .main-text {
@@ -333,7 +333,7 @@ header {
     padding-top: 85px; }
     #about .left-wrapper .large-text {
       color: #a8b4c1;
-      font-family: "Merriweather", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 24px;
       font-style: italic;
       padding-right: 30px;
@@ -352,7 +352,7 @@ header {
 /*		    features section  	  */
 /* ============================== */
 #event, #prices {
-  background-color: #399fbc;
+  background-color: #fff;
   background-size: cover;
   padding: 80px 0;
   text-align: center; }
@@ -483,7 +483,7 @@ header {
   padding: 70px 0; }
   #jury .section-title {
     color: rgba(0, 0, 0, 0.35);
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: italic; }
   #jury h2 {
     color: #fff;
@@ -601,24 +601,13 @@ header {
 /* ============================== */
 /*		    z-layout2 section  	  */
 /* ============================== */
-#timeline h2 {
-  color: #399fbc; }
-
-#timeline hr {
-  background-color: #f21c42;
-  margin: 25px auto;
-  border: none;
-  text-align: center;
-  width: 80px;
-  height: 4px; }
-
 #venue {
-  background-color: #399fbc;
+  background-color: #fff;
   background-size: cover;
-  padding: 15px 0;
+  padding: 0px 0;
   position: relative; }
   #venue .overlay {
-    background-color: #399fbc;
+    background-color: #82b3ae;
     position: absolute;
     top: 0;
     right: auto;
@@ -628,24 +617,9 @@ header {
     height: 100%; }
   #venue h2 {
     color: #fff;
-    font-size: 32px;
-    text-align: center; }
-  #venue .schedule h2 {
-    text-align: center; }
-  #venue hr {
-    background-color: #f21c42;
-    margin: 25px auto;
-    border: none;
-    text-align: center;
-    width: 80px;
-    height: 4px; }
-  #venue ul li {
-    color: #fff;
-    line-height: 3.5em;
-    font-size: 130%;
-    text-align: center; }
+    font-size: 32px; }
   #venue p {
-    color: #fff;
+    color: rgba(129, 140, 152, 0.7);
     font-size: 18px; }
   #venue .button {
     font-family: "Montserrat", sans-serif;
@@ -701,12 +675,14 @@ header {
 /*		  timeline section    	  */
 /* ============================== */
 #timeline {
-  padding: 10px 0;
+  padding: 0px 0px 25px 0px;
   text-align: center; }
+  #timeline h2 {
+    color: #399fbc; }
   #timeline .nav-tabs {
     display: inline-block;
     border: none;
-    margin-top: 60px; }
+    margin-top: 0px; }
     #timeline .nav-tabs li {
       width: 180px;
       height: 50px;
@@ -734,8 +710,8 @@ header {
     transition: all .5s; }
   #timeline .timeline-wrapper {
     position: relative;
-    margin-top: 60px;
-    padding-bottom: 40px; }
+    margin-top: 40px;
+    padding-bottom: 0px; }
     #timeline .timeline-wrapper:before {
       background-color: #f0f1f2;
       content: '';
@@ -784,7 +760,7 @@ header {
       width: 50%;
       padding: 0 40px; }
     #timeline .timeline-wrapper .timeline-info span {
-      font-family: "Merriweather", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-style: italic; }
     #timeline .timeline-wrapper .timeline-info h3 {
       font-family: "Montserrat", sans-serif;
@@ -803,9 +779,9 @@ header {
         font-size: 24px;
         font-weight: 400; }
         #timeline .timeline-wrapper .timeline-date p span {
-          color: #f21c42; }
+          color: #3b475f; }
       #timeline .timeline-wrapper .timeline-date:after {
-        background-color: #3b475f;
+        background-color: #399fbc;
         content: '';
         position: absolute;
         top: 40px;
@@ -870,7 +846,7 @@ header {
     /* stops bg color from leaking outside the border: */ }
   #testimonials .testi-slide p {
     color: #f0f1f2;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 20px;
     font-style: italic;
     line-height: 40px;
@@ -1043,18 +1019,17 @@ header {
 /*		     faqs section         */
 /* ============================== */
 #apis {
-  background-color: #399fbc;
+  background: #82b3ae;
   padding: 75px 0;
   text-align: center; }
+  #apis h2 {
+    color: #fff; }
   #apis hr {
     background-color: #f21c42;
     margin: 25px auto;
     border: none;
-    text-align: center;
     width: 80px;
     height: 4px; }
-  #apis h2 {
-    color: #fff; }
   #apis .first-row {
     margin-top: 60px;
     display: inline-block;
@@ -1162,7 +1137,7 @@ header {
     margin-top: 40px; }
   #cta-section .title {
     color: #f46464;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 24px;
     font-style: italic;
     margin-top: 30px; }
@@ -1190,7 +1165,7 @@ header {
   padding: 35px 0; }
   #form-section input {
     color: #a8b4c1;
-    font-family: "Merriweather", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: italic;
     height: 50px;
@@ -1229,7 +1204,7 @@ header {
       padding-left: 20px; }
       #form-section .bootstrap-select .selectpicker span {
         color: #a8b4c1;
-        font-family: "Merriweather", sans-serif;
+        font-family: "Montserrat", sans-serif;
         font-size: 16px;
         font-style: italic; }
       #form-section .bootstrap-select .selectpicker:hover {
@@ -1272,7 +1247,7 @@ header {
       margin-top: 15px; }
     #socials .col-item .link {
       color: #3b475f;
-      font-family: "Merriweather", sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 14px;
       font-style: italic;
       text-decoration: underline; }
@@ -1328,7 +1303,7 @@ header {
       font-weight: 400; }
     #map-location .info-window span {
       color: #f46464;
-      font-family: "Merriweather", sans-serif !important;
+      font-family: "Montserrat", sans-serif !important;
       font-size: 16px;
       font-style: italic; }
     #map-location .info-window p {
@@ -1426,7 +1401,8 @@ footer {
     margin-bottom: 60px; }
 
   #timeline .timeline-wrapper .timeline-info h3 {
-    font-size: 20px; }
+    font-size: 20px;
+    color: #f21c42; }
 
   #testimonials .testi-slide p {
     padding: 0 20px; }
@@ -1540,8 +1516,6 @@ footer {
     height: 160px; }
     #partners .item img {
       width: auto !important; }
-  #partners hr {
-    display: none !important; }
   #partners .first-row {
     margin-top: 0; } }
 /* Extra Small Devices, Phones */
@@ -1562,34 +1536,73 @@ footer {
     font-size: 16px; }
 
   #map-location {
-    height: 480px; } }
+    height: 480px; }
+
+  .big-text {
+    color: #f21c42;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 330%;
+    line-height: 90px;
+    margin-top: 5px;
+    padding: 10px 0;
+    text-transform: uppercase; } }
 @media only screen and (max-width: 430px) {
   h1 {
     font-size: 50px !important; } }
 /* Custom, iPhone Retina */
-#about p {
+span.p-title {
+  display: block;
+  font-size: 130%; }
+
+section#about p {
   text-align: justify; }
 
-#about hr {
+section#venue p {
+  color: #fff;
+  font-size: 16px;
+  text-align: center; }
+
+ul.rules li {
+  line-height: 2.5em; }
+
+.schedule h2 {
+  text-align: center; }
+
+.schedule hr {
   background-color: #f21c42;
   margin: 25px auto;
   border: none;
-  text-align: center;
   width: 80px;
   height: 4px; }
 
-#about h2 {
-  color: #399fbc; }
+#timeline hr {
+  background-color: #f21c42;
+  margin: 25px auto;
+  border: none;
+  width: 80px;
+  height: 4px; }
+
+div#partners hr {
+  background-color: #f21c42;
+  margin: 25px auto;
+  border: none;
+  width: 80px;
+  height: 4px; }
 
 .timeline-info h3 {
   color: #f21c42; }
 
-.btn-ecomhack {
+#about hr {
+  background-color: #f21c42; }
+
+.btn-ecomhack-big {
   background-color: #f21c42;
   color: #fff;
   margin: 0;
   border-radius: 0;
-  margin-top: 20px;
-  width: 100%; }
+  margin: 20px auto;
+  width: 50%;
+  font-style: normal; }
 
 /*# sourceMappingURL=style.css.map */

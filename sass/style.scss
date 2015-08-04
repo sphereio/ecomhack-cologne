@@ -181,7 +181,7 @@ p{
 
 .section-title{
 	color: $orange-color;
-	font-family: $merriweather-font;
+	font-family: $montserrat-font;
 	font-size: 18px;
 	font-style: italic;
 }
@@ -383,13 +383,13 @@ header{
 /* ============================== */
 
 #main-section{
-	//background: url("../img/main-bg.jpg") no-repeat fixed center bottom;
+//	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;
 	background-color: $city-color;
     background-size: cover;
     color: transparent_color(#fff, .4);
-    font-family: $merriweather-font;
+    font-family: $montserrat-font;
     position: relative;
-    padding: 180px 0 135px 0;
+    padding: 180px 0 25px 0;
 
     .overlay{
     	background-color: transparent_color(#192132, .92);
@@ -445,11 +445,11 @@ header{
 	    }
 
       .big-text {
-        font-size: 80px;
+
         color: $ecomhack-red;
         font-family: $montserrat-font;
         font-weight: 700;
-        font-size: 98px;
+        font-size:530%;
         line-height: 90px;
         margin-top: 5px;
         padding: 10px 0;
@@ -473,7 +473,7 @@ header{
       }
 
       .description {
-        padding-top: 70px;
+        padding-top: 0px;
         font-size: 14px;
         font-style: italic;
         line-height: 18px;
@@ -504,7 +504,7 @@ header{
 /* ============================== */
 
 #about{
-	padding: 55px 0 0px 0;
+	padding: 15px 0 0px 0;
 	text-align: center;
 
 	.row{
@@ -512,7 +512,8 @@ header{
 	}
 
 	h2{
-		margin-top: 15px;
+		margin-top: 17px;
+		color: $city-color;
 	}
 
   hr{
@@ -529,7 +530,7 @@ header{
 
 		.large-text{
 			color: #a8b4c1;
-			font-family: $merriweather-font;
+			font-family: $montserrat-font;
 			font-size: 24px;
 			font-style: italic;
 			padding-right: 30px;
@@ -561,7 +562,7 @@ header{
 
 #event, #prices{
 	//background: url("../img/feature-bg.png") no-repeat fixed center bottom;
-	background-color: $city-color;
+	background-color: #fff;
     background-size: cover;
 	padding: 80px 0;
 	text-align: center;
@@ -724,7 +725,7 @@ header{
 
 	.section-title{
 		color: transparent_color(#000, .35);
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-style: italic;
 	}
 
@@ -749,13 +750,13 @@ header{
 			width: 260px;
 			padding: 10px;
 			background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMDQiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
-background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.04) 100%);
-background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.04)));
-background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-background: linear-gradient(135deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#0a000000',GradientType=1 );
+			background: -moz-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.04) 100%);
+			background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(0,0,0,0.1)), color-stop(100%,rgba(0,0,0,0.04)));
+			background: -webkit-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: -o-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: -ms-linear-gradient(-45deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			background: linear-gradient(135deg,  rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.04) 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', endColorstr='#0a000000',GradientType=1 );
 			@include radius(50%);
 			position: relative;
 			overflow: hidden;
@@ -874,61 +875,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /*		    z-layout2 section  	  */
 /* ============================== */
 
-#timeline h2{
-	color: $city-color;
-}
-#timeline hr{
-	background-color: $ecomhack-red;
-    margin: 25px auto;
-    border: none;
-    text-align: center;
-    width: 80px;
-    height: 4px;
-}
-
 #venue{
 
-	//background: url("../img/gallery-bg.jpg") no-repeat fixed center bottom;
-	background-color: $city-color;
-    background-size: cover;
-	padding: 15px 0;
+	background-color: #fff;
+  background-size: cover;
+	padding:0px 0;
 	position: relative;
 
 	.overlay{
-    	background-color:$city-color;
+    	background-color: #82b3ae;
 	    @include absPosition(0, auto, auto, 0);
 	    width: 100%;
 	    height: 100%;
     }
 
-	& h2{
+	h2{
 		color: #fff;
 		font-size: 32px;
-		text-align: center;
 	}
 
-	.schedule h2{
-		text-align: center;
-	}
-
-	hr{
-		background-color: $ecomhack-red;
-    margin: 25px auto;
-    border: none;
-    text-align: center;
-    width: 80px;
-    height: 4px;
-	}
-
-	& ul li {
-		color: #fff;
-		line-height: 3.5em;
-		font-size: 130%;
-		text-align: center;
-	}
 
 	p{
-		color:#fff;
+		color: transparent_color($text-color, .7);
 		font-size: 18px;
 	}
 
@@ -1001,13 +969,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /* ============================== */
 
 #timeline{
-	padding: 10px 0;
+	padding: 0px 0px 25px 0px;
 	text-align: center;
+
+	& h2 {
+		color: $city-color;
+	}
 
 	.nav-tabs{
 		display: inline-block;
 		border: none;
-		margin-top: 60px;
+		margin-top: 0px;
 
 		li{
 			width: 180px;
@@ -1044,8 +1016,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 	.timeline-wrapper{
 		position: relative;
-		margin-top: 60px;
-		padding-bottom: 40px;
+		margin-top: 40px;
+		padding-bottom: 0px;
 
 		&:before{
 			background-color: #f0f1f2;
@@ -1102,7 +1074,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		.timeline-info{
 			span{
-				font-family: $merriweather-font;
+				font-family: $montserrat-font;
 				font-style: italic;
 			}
 			h3{
@@ -1129,12 +1101,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 				font-weight: 400;
 
 				span{
-					color: $ecomhack-red;
+					color: $headline-color;
 				}
 			}
 
 			&:after{
-				background-color: $headline-color;
+				background-color: $city-color;
 				content: '';
 				position: absolute;
 				top: 40px;
@@ -1202,7 +1174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		p{
 		    color: #f0f1f2;
-		    font-family: $merriweather-font;
+		    font-family: $montserrat-font;
 		    font-size: 20px;
 		    font-style: italic;
 		    line-height: 40px;
@@ -1436,21 +1408,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 /*		     faqs section         */
 /* ============================== */
 #apis{
-		background-color: $city-color;
+	background: #82b3ae;
 	padding: 75px 0;
 	text-align: center;
 
+ h2{
+	 color:#fff;
+ }
+
 	hr{
 		background-color: $ecomhack-red;
-	    margin: 25px auto;
-	    border: none;
-	    text-align: center;
-	    width: 80px;
-	    height: 4px;
-	}
-
-	& h2 {
-		color:#fff;
+		margin: 25px auto;
+		border: none;
+		width: 80px;
+		height: 4px;
 	}
 
 	.first-row{
@@ -1572,7 +1543,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 	.title{
 		color: $orange-color;
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-size: 24px;
 		font-style: italic;
 		margin-top: 30px;
@@ -1610,7 +1581,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 	input{
 		color: #a8b4c1;
-		font-family: $merriweather-font;
+		font-family: $montserrat-font;
 		font-size: 16px;
 		font-style: italic;
 		height: 50px;
@@ -1644,7 +1615,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 			span{
 				color: #a8b4c1;
-				font-family: $merriweather-font;
+				font-family: $montserrat-font;
 				font-size: 16px;
 				font-style: italic;
 			}
@@ -1705,7 +1676,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		.link{
 			color: $headline-color;
-			font-family: $merriweather-font;
+			font-family: $montserrat-font;
 			font-size: 14px;
 			font-style: italic;
 			text-decoration: underline;
@@ -1778,7 +1749,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a000000', e
 
 		span{
 			color: $orange-color;
-			font-family: $merriweather-font  !important;
+			font-family: $montserrat-font  !important;
 			font-size: 16px;
 			font-style: italic;
 		}
@@ -1934,6 +1905,7 @@ footer{
 
 	#timeline .timeline-wrapper .timeline-info h3{
 		font-size: 20px;
+		color: $ecomhack-red;
 	}
 
 	#testimonials .testi-slide p{
@@ -2066,7 +2038,6 @@ footer{
 	#pricing .table-item p{padding-left: 20px; padding-right: 20px;}
 
 	#partners{
-
 		.item{
 			width: 100%;
 			height: 160px;
@@ -2076,9 +2047,6 @@ footer{
 			}
 		}
 
-		hr{
-			display: none !important;
-		}
 
 		.first-row{
 			margin-top: 0;
@@ -2100,6 +2068,19 @@ footer{
 	#faqs .panel-heading .panel-title a{font-size: 16px;}
 
 	#map-location{height: 480px;}
+
+
+	.big-text {
+		color: $ecomhack-red;
+		font-family: $montserrat-font;
+		font-weight: 700;
+		font-size:330%;
+		line-height: 90px;
+		margin-top: 5px;
+		padding: 10px 0;
+		text-transform: uppercase;
+}
+
 }
 
 
@@ -2112,32 +2093,74 @@ footer{
 
 }
 
-#about p{
-	text-align: justify;
 
+span.p-title{
+	display: block;
+	font-size: 130%;
 }
 
-#about hr {
-	background-color: $ecomhack-red;
-    margin: 25px auto;
-    border: none;
-    text-align: center;
-    width: 80px;
-    height: 4px;
-}
-
-#about h2 {
-	color: $city-color;
-}
-
-.timeline-info h3 {
-  color: $ecomhack-red; }
-
-	.btn-ecomhack{
-		background-color: $ecomhack-red;
-		color: #fff;
-		margin: 0;
-		border-radius: 0;
-		margin-top: 20px;
-		width: 100%;
+section#about{
+	& p {
+		text-align: justify;
 	}
+}
+ section#venue p{
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+ul.rules li{
+	line-height: 2.5em;
+}
+
+.schedule h2{
+	text-align: center;
+}
+.schedule hr{
+	background-color: $ecomhack-red;
+	margin: 25px auto;
+	border: none;
+	width: 80px;
+	height: 4px;
+}
+
+
+#timeline hr{
+	background-color: $ecomhack-red;
+	margin: 25px auto;
+	border: none;
+	width: 80px;
+	height: 4px;
+}
+
+div#partners{
+
+	hr{
+		background-color: $ecomhack-red;
+		margin: 25px auto;
+		border: none;
+		width: 80px;
+		height: 4px;
+	}
+}
+
+.timeline-info h3{
+	color: $ecomhack-red;
+}
+
+
+#about hr{
+	background-color: $ecomhack-red;
+}
+
+.btn-ecomhack-big{
+	background-color: $ecomhack-red;
+	color: #fff;
+	margin: 0;
+	border-radius: 0;
+	margin: 20px auto;
+	width: 50%;
+	font-style: normal;
+}
