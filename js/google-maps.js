@@ -19,7 +19,6 @@ function initialize() {
 
         var contentString = '<div class="info-window">'+
         	'<h3>betahaus Berlin</h3>'+
-        	'<span>Where you can find us</span>'+
         	'<p>Prinzessinnenstr. 19<br>10969 Berlin<br>Germany</p>'+
         	'</div>';
 
