@@ -1,7 +1,6 @@
 function initialize() {
 
-      	var windowLatLng = new google.maps.LatLng(52.502541, 13.412209); // betahaus berlin
-
+      	var windowLatLng = new google.maps.LatLng(50.939723, 6.957856); // betahaus berlin
       	var mapCanvas = document.getElementById('map-location');
 
         var mapOptions = {
@@ -14,12 +13,10 @@ function initialize() {
 	        mapTypeId: google.maps.MapTypeId.ROADMAP,
           draggable: false
         }
-
         var map = new google.maps.Map(mapCanvas, mapOptions);
-
         var contentString = '<div class="info-window">'+
-        	'<h3>betahaus Berlin</h3>'+
-        	'<p>Prinzessinnenstr. 19<br>10969 Berlin<br>Germany</p>'+
+        	'<h3>Solution Space Cologne</h3>'+
+        	'<p>Am Hof 20-26, <br /> 50667 Köln<br>Germany</p>'+
         	'</div>';
 
 		var infowindow = new google.maps.InfoWindow({
