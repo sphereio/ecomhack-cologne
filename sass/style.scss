@@ -382,8 +382,8 @@ header{
 /* ============================== */
 
 #main-section{
-//	background: url("../img/main-bg.jpg") no-repeat fixed center bottom;
-	background-color: $city-color;
+		background: url(http://www.ecomhack.io/img/gallery/shop_presentation.jpg) no-repeat fixed center;
+		background-color: $city-color;
     background-size: cover;
     color: transparent_color(#fff, .4);
     font-family: $montserrat-font;
@@ -2088,7 +2088,6 @@ section#about{
  section#venue p{
 	color: #fff;
 	font-size: 18px;
-	text-align: center;
 }
 
 
@@ -2267,4 +2266,9 @@ div#partners{
 		font-size:375% !important;
 		}
 
+}
+
+.claim{
+	color: #fff;
+	font-size:24px;
 }
