@@ -345,10 +345,11 @@ header {
 /*		    main section  	      */
 /* ============================== */
 #main-section {
-  background: url("http://www.ecomhack.io/img/gallery/presentation.jpg") no-repeat fixed center;
+  background: url("../img/presentation.png") no-repeat fixed center;
   background-color: $city-color;
   background-size: cover;
   color: #fff;
+  height: 90vh;
   font-family: $montserrat-font;
   position: relative;
   padding: 105px 0 25px;
@@ -386,7 +387,7 @@ header {
       display: inline-block;
     }
     h1 {
-      color: #fff;
+      color: #F21C42;
       font-family: $montserrat-font;
       font-size: 72px;
       font-weight: 400;
@@ -394,7 +395,7 @@ header {
       font-size: 50px !important;
     }
     .big-text {
-      color: #399FBC;
+      color: #fff;
       font-family: $montserrat-font;
       font-weight: 700;
       font-size: 530%;
@@ -1881,7 +1882,8 @@ div#partners {
   max-width: 350px;
   font-style: normal;
 	&:hover {
-		color: #399FBC;
+		color: $ecomhack-red;
+    background: #fff;
 	}
 }
 

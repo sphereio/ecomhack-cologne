@@ -220,10 +220,11 @@ header {
 /*		    main section  	      */
 /* ============================== */
 #main-section {
-  background: url("http://www.ecomhack.io/img/gallery/presentation.jpg") no-repeat fixed center;
+  background: url("../img/presentation.png") no-repeat fixed center;
   background-color: #399fbc;
   background-size: cover;
   color: #fff;
+  height: 90vh;
   font-family: "Montserrat", sans-serif;
   position: relative;
   padding: 105px 0 25px; }
@@ -260,14 +261,14 @@ header {
       margin-top: 50px;
       display: inline-block; }
     #main-section .main-intro h1 {
-      color: #fff;
+      color: #F21C42;
       font-family: "Montserrat", sans-serif;
       font-size: 72px;
       font-weight: 400;
       margin-top: 25px;
       font-size: 50px !important; }
     #main-section .main-intro .big-text {
-      color: #399FBC;
+      color: #fff;
       font-family: "Montserrat", sans-serif;
       font-weight: 700;
       font-size: 530%;
@@ -1627,7 +1628,8 @@ div#partners hr {
   max-width: 350px;
   font-style: normal; }
   .btn-ecomhack-big:hover {
-    color: #399FBC; }
+    color: #f21c42;
+    background: #fff; }
 
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
