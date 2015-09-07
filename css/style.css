@@ -1631,6 +1631,9 @@ div#partners hr {
     color: #f21c42;
     background: #fff; }
 
+@media screen and (max-width: 610px) {
+  #main-section {
+    height: auto; } }
 /* ----------- iPhone 4 and 4S ----------- */
 /* Portrait and Landscape */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
