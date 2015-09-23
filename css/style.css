@@ -1045,11 +1045,10 @@ header {
 /*		     faqs section         */
 /* ============================== */
 #apis {
-  background: #82b3ae;
   padding: 75px 0;
   text-align: center; }
   #apis h2 {
-    color: #fff; }
+    color: #399fbc; }
   #apis hr {
     background-color: #f21c42;
     margin: 25px auto;
