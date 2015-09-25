@@ -1360,6 +1360,32 @@ header {
       margin-top: 20px;
       margin-bottom: 30px; } }
 
+.prizes-section {
+  background: #2d7e95;
+  color: #fff;
+  padding: 30px 0;
+  border-bottom: 1px solid #fff; }
+
+.prices-section-hr {
+  background-color: #f21c42; }
+
+.prizes-section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #fff; }
+
+.prizes-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0; }
+
+.prizes-list {
+  border-top: 1px solid #fff;
+  padding-top: 20px; }
+  .prizes-list li {
+    list-style-type: disc;
+    font-size: 18px; }
+
 /* ============================== */
 /*		     Maps section         */
 /* ============================== */

@@ -1549,6 +1549,36 @@ header {
   }
 }
 
+// Prizes section
+.prizes-section {
+  background: darken(#399FBC, 10%);
+  color: #fff;
+  padding: 30px 0;
+  border-bottom: 1px solid #fff;
+}
+.prices-section-hr {
+  background-color: $ecomhack-red;
+}
+.prizes-section-title {
+  text-align: center;
+  font-size: 32px;
+  color: #fff;
+}
+.prizes-title {
+  text-align: center;
+  font-size: 20px;
+  padding: 10px 0;
+}
+.prizes-list {
+  border-top: 1px solid #fff;
+  padding-top: 20px;
+  li {
+    list-style-type: disc;
+    font-size: 18px;
+  }
+}
+
+
 /* ============================== */
 /*		     Maps section         */
 /* ============================== */
