@@ -1316,14 +1316,6 @@ header {
   .dwx-logo {
     max-height: 100px; } }
 
-.ct-logo {
-  margin: 30% 0; }
-  @media screen and (max-width: 767px) {
-    .ct-logo {
-      margin: 30px auto;
-      max-height: 100px;
-      max-width: 200px !important; } }
-
 .ecomcamp-logo {
   max-height: 100px;
   max-width: 120px; }

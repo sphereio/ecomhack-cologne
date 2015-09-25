@@ -1504,14 +1504,6 @@ header {
     max-height: 100px;
   }
 }
-.ct-logo {
-	margin: 30% 0;
-  @media screen and (max-width: 767px) {
-    margin: 30px auto;
-    max-height: 100px;
-    max-width: 200px!important; // overwrite .img-responsive
-  }
-}
 .ecomcamp-logo {
 	max-height: 100px;
 	max-width: 120px;
